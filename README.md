@@ -11,5 +11,5 @@ JRE or JDK required.
 `java -jar ServicePathViewer.jar`
 
 ## Experimental 实验性
-Add `Windows Service Viewer.exe` experimentally. JRE may needed. May or may not work.
+Add `Windows Service Viewer.exe` experimentally. JRE may needed. May or may not work.  
 实验性地打包了`Windows Service Viewer.exe`；大概需要安装JRE；也许能用，也许不能用。
