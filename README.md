@@ -7,7 +7,7 @@ A small Java made GUI tool which could listing all Windows Services sort by name
 Based on `wmic service` and `JavaFX`.
 
 ## How to use 如何使用
-JRE or JDK required.
+JRE or JDK required.  
 `java -jar ServicePathViewer.jar`
 
 ## Experimental 实验性
