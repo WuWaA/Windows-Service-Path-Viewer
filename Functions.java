@@ -14,7 +14,7 @@ public class Functions {
             if (counter != 0 && read.length() != 0) {
                 Service line = null;
                 read.trim();
-                String[] temp = read.split("\s{2,}"); // 拆分结果 split result
+                String[] temp = read.split("\\s{2,}"); // 拆分结果 split result
                 if (temp.length == 3) {
                     if (temp[1].charAt(0) == ('\"'))
                         temp[1] = temp[1].replaceAll("\"", ""); // 去掉引号 remove quote marks

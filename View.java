@@ -29,7 +29,9 @@ public class View {
         s_state.setCellValueFactory(new PropertyValueFactory<>("state"));
 
         table.getSelectionModel().setCellSelectionEnabled(true);
-        table.getColumns().addAll(s_name, s_path, s_state);
+        table.getColumns().add(s_name);
+        table.getColumns().add(s_path);
+        table.getColumns().add(s_state);
 
         s_name.setSortType(TableColumn.SortType.ASCENDING);
 
